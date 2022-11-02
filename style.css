@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;300;500;700&family=Nunito:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Gothic A1', sans-serif;
+font-family: 'Nunito', sans-serif;
+}
+.main_row{
+    margin-top: 10px!important;
+}
+h3{
+    font-size: 20px!important;
+    font-weight: 400!important;
+    margin-top: 10px!important;
+}
+/* .container {
+    align-items: center!important;
+    display: flex!important;
+    justify-content: center!important;
+    height: 100%!important;
+    width: 100%!important;
+  } */
+  .img-div{
+    text-align: center;
+
+}
+.img-div img {
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+.img-div img.show{
+    width: 500px!important;
+    height: 500px!important;
+   position: relative;
+}
+i.fa-solid.fa-xmark {
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    z-index: 9999999!important;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+.col-md-2.col-12 {
+    height: 302px!important;
+}
+li.page-item.page_count {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+nav.d-flex.mt-3.justify-content-center {
+    position: absolute!important;
+    top: 85%;
+    left: 0%;
+    right: 0%;
+}
